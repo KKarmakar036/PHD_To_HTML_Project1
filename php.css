@@ -1,0 +1,763 @@
+@font-face {
+    font-family: oswald;
+    src: url(font/oswald/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: montserrat;
+    src: url(font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Nunito;
+    src: url(font/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: oswald,sans-serif;
+}
+header{
+    background-image: url(img/background_Image.png);
+    background-size:cover;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    padding: 0px 6%;
+}
+
+header nav{
+    background-color: #303030;
+}
+header nav .container .nav-item{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+header nav .container .nav_list{
+    display: flex;
+    justify-content: space-around;
+    width: 554px;
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.ion i{
+    color: white;
+    display: none;
+}
+
+
+
+
+header .banner{
+    color: white;
+    padding-top: 269px;
+}
+header .banner .container .text{
+    width: 38%;
+}
+header .banner .container .text h2{
+    font-size: 100px;
+    font-weight: 400;
+}
+header .banner .container .text p{
+    font-size: 25px;
+    font-family: montserrat,sans-serif;
+}
+header .banner .container .btn {
+    margin-top: 40px;
+}
+header .banner .container .btn button{
+    width: 16%;
+    height: 60px;
+    background-color: #e8631c;
+    color: white;
+    font-size: 28px;
+    font-weight: 300;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+
+
+main .dance_tour{
+    background-color: #e8631c;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(img/Design\ drop.png);
+    background-repeat: no-repeat;
+    background-position:bottom 90px left 0;
+}
+main .dance_tour .container .dance{
+    margin: 100px 0px;
+    position: relative;
+}
+main .dance_tour .container .dance .text {
+    text-align: center;
+    color: white;
+    padding: 0px 400px;
+}
+main .dance_tour .container .dance .text h2{
+    text-transform:uppercase;
+    font-size: 63px;
+}
+main .dance_tour .container .dance .text p{
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: 300;
+    font-family: montserrat,sans-serif;
+}
+main .dance_tour .container .dance .content{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 85px;
+}
+main .dance_tour .container .dance .content .content1{
+    height: 550px;
+    width: 28%;
+    background-color: #303030;
+}
+main .dance_tour .container .dance .content .content1 img{
+    width: 100%;
+}
+main .dance_tour .container .dance .content .content1 .content_text{
+    text-align: center;
+    height: 169px;
+    color: white;
+    padding:20px;
+
+}
+main .dance_tour .container .dance .content .content1 .content_text h3{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+main .dance_tour .container .dance .content .content1 .content_text p{
+    font-size: 20px;
+    font-family: montserrat,sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+
+main .pricing{
+    background-color: #303030;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url(img/Design\ pricing.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size:cover;
+}
+main .pricing .container .pricing2{
+    margin: 100px 0px;
+}
+main .pricing .container .pricing2 .text {
+    text-align: center;
+    color: white;
+    padding: 0px 400px;
+}
+main .pricing .container .pricing2 .text h2{
+    text-transform:uppercase;
+    font-size: 63px;
+}
+main .pricing .container .pricing2 .text p{
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: 300;
+    font-family: montserrat,sans-serif;
+}
+main .pricing .container .pricing2 .content{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 85px;
+}
+main .pricing .container .pricing2 .content .content1{
+    height: 550px;
+    width: 28%;
+    background-color: #e8631c;
+    border-radius: 10px;
+}
+main .pricing .container .pricing2 .content .content1 .icon{
+    text-align: center;
+    padding: 80px 0px;
+}
+
+main .pricing .container .pricing2 .content .content1 .content_text{
+    text-align: center;
+    height: 250px;
+    color: white;
+    padding:7px;
+
+}
+main .pricing .container .pricing2 .content .content1 .content_text h3{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+main .pricing .container .pricing2 .content .content1 .content_text p{
+    font-size: 20px;
+    font-family: montserrat,sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+}
+main .pricing .container .pricing2 .content .content1 .content_text button{
+    width: 90%;
+    height: 50px;
+    margin-top: 30px;
+    background-color: #303030;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+
+main .amazing_dance{
+    display: flex;
+    height: 150vh;
+    width: 100%;
+}
+main .amazing_dance .left{
+    width: 50%;
+}
+main .amazing_dance .left img{
+    width: 100%;
+    height: 150vh;
+}
+main .amazing_dance .right{
+    background-image: url(img/Shape\ dance.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-position-y:520px ;
+    width: 50%;
+    background-color: #e8631c;
+    padding: 400px 0px 0px 100px;
+}
+main .amazing_dance .right h2{
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+main .amazing_dance .right p{
+    width: 70%;
+    font-size: 24px;
+    margin-bottom: 100px;
+    font-weight: 300;
+    font-family: montserrat,sans-serif;
+    color: white;
+}
+main .amazing_dance .right button{
+    width: 35%;
+    height: 55px;
+    border-radius: 5px;
+    background-color: #303030;
+    color: white;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+main .best_dance{
+    display: flex;
+    height: 150vh;
+    width: 100%;
+}
+main .best_dance .left{
+    background-image: url(img/Design\ best.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-position-y:520px ;
+    width: 50%;
+    background-color: #e8631c;
+    padding: 400px 0px 0px 100px;
+}
+main .best_dance .left h2{
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+main .best_dance .left p{
+    width: 70%;
+    font-size: 24px;
+    margin-bottom: 100px;
+    font-weight: 300;
+    font-family: montserrat,sans-serif;
+    color: white;
+}
+main .best_dance .left button{
+    width: 35%;
+    height: 55px;
+    border-radius: 5px;
+    background-color: #303030;
+    color: white;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+main .best_dance .right{
+    width: 50%;
+}
+main .best_dance .right img{
+    width: 100%;
+    height: 150vh;
+}
+
+
+main .our_statistics{
+    background-color: #303030;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+main .our_statistics .container .our{
+    padding: 200px 0px;
+}
+main .our_statistics .container .our .text {
+    text-align: center;
+    color: white;
+    padding: 0px 350px;
+    margin-bottom: 200px;
+}
+main .our_statistics .container .our .text h2{
+    text-transform:uppercase;
+    font-size: 63px;
+}
+main .our_statistics .container .our .text p{
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: 300;
+    font-family: montserrat,sans-serif;
+}
+main .our_statistics .container .our .content{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+main .our_statistics .container .our .content .content1{
+    color: white;
+}
+main .our_statistics .container .our .content .content1 h3{
+    font-size: 50px;
+}
+main .our_statistics .container .our .content .content1 p{
+    font-size: 40px;
+    font-family: montserrat,sans-serif;
+}
+
+
+main .herbert_simon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    width: 100%;
+    background-image: url(img/Image.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+main .herbert_simon .container .text{
+    text-align: center;
+    padding: 0px 300px;
+    color: white;
+}
+main .herbert_simon .container .text p{
+    font-family: Nunito,sans-serif;
+    font-size: 39px;
+    margin-bottom: 50px;
+}
+main .herbert_simon .container .text h2{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+
+footer .subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    background-image: url(img/Design\ sub.png);
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size:cover;
+    background-color: #e8631c;
+}
+footer .subscribe .container .text{
+    padding: 0px 300px;
+    color: white;
+}
+footer .subscribe .container .text h2{
+    text-align: center;
+    font-size: 55px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+footer .subscribe .container .text p{
+    text-align: center;
+    font-size: 30px;
+    font-family: montserrat,sans-serif;
+    margin-bottom: 50px;
+    font-weight: 250;
+}
+footer .subscribe .container .text .btn{
+    display: flex;
+    justify-content: center;
+}
+footer .subscribe .container .text input{
+    width: 60%;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    font-family: montserrat,sans-serif;
+    font-weight: 300;
+}
+footer .subscribe .container .text button{
+    border: none;
+    background-color: #303030;
+    color: white;
+    width: 20%;
+    height: 50px;
+    font-size:20px ;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+footer .about{
+    background-color: #303030;
+    color: white;
+    
+}
+footer .about .container .content{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+footer .about .container .content .left{
+    width: 30%;
+    padding-right: 50px;
+}
+footer .about .container .content .left h2{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 25px
+}
+footer .about .container .content .left p{
+    font-family: montserrat,sans-serif;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+footer .about .container .content .left .icon{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+footer .about .container .content .left .icon i{
+    font-size: 30px;
+    margin-right:15px;
+    color: black;
+    background-color: white;
+    border-radius: 720%;
+    padding: 10px;
+}
+footer .about .container .content .right{
+    display: flex;
+    width: 70%;
+    justify-content:flex-end;
+}
+footer .about .container .content .right .content2{
+    width: 20%;
+}
+footer .about .container .content .right .content2 h2{
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+}
+footer .about .container .content .right .content2 ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-family: montserrat,sans-serif;
+    font-weight: 250;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:991px) {
+    header{
+        background-size: 100% 100%;
+        height: auto;
+    }
+    header nav .container .nav-item{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    header nav .container .nav_list{
+        flex-direction: column;
+        display:none;
+        width: 100%;
+    }
+    header nav .container .nav_list p{
+        margin-top:10px;
+    }
+    header nav .container .search{
+        display: none;
+    }
+    .logo{
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .logo .ion i{
+        display: block;
+        font-size: 25px;
+    }
+  
+    header .banner{
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0%;
+    }
+    header .banner .container .text{
+        width: 100%;
+        text-align: center;
+    }
+    header .banner .container .btn{
+        width: 100%;
+        text-align: center;
+    }
+    header .banner .container .btn button{
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+
+    main .dance_tour{
+        width: 100%;
+        padding: 0;
+    }
+    main .dance_tour .container .dance{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    main .dance_tour .container .dance .text{
+        width: 100%;
+        padding: 0;
+    }
+    main .dance_tour .container .dance .content{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+    main .dance_tour .container .dance .content .content1{
+        width: 60%;
+        height: auto;
+        margin-top: 20px;
+    }
+    main .dance_tour .container .dance .content .content1 .content_text{
+        height: auto;
+    }
+
+
+    main .pricing{
+        width: 100%;
+        padding: 0;
+    }
+    main .pricing .container .pricing2{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    main .pricing .container .pricing2 .text{
+        width: 100%;
+        padding: 0;
+    }
+    main .pricing .container .pricing2 .content{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        height: auto;
+        align-items: center;
+    }
+    main .pricing .container .pricing2 .content .content1{
+        width: 60%;
+        height: auto;
+        margin-top: 20px;
+    }
+    main .pricing .container .pricing2 .content .content1 .content_text{
+        height: auto;
+    }
+    main .pricing .container .pricing2 .content .content1 .content_text button{
+        margin-bottom: 20px;
+    }
+
+
+    main .amazing_dance{
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        
+    }
+    main .amazing_dance .left{
+        width: 100%;
+    }
+    main .amazing_dance .right{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        height: auto;
+    }
+    main .amazing_dance .right p{
+        width: 100%;
+    }
+    main .amazing_dance .right button{
+        margin-bottom: 20px;
+    }
+
+    main .best_dance{
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+    main .best_dance .right{
+        width: 100%;
+    }
+    main .best_dance .left{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        height: auto;
+    }
+    main .best_dance .left p{
+        width: 100%;
+    }
+    main .best_dance .left button{
+        margin-bottom: 20px;
+    }
+
+
+    main .our_statistics{
+        width: 100%;
+    }
+    main .our_statistics .container .our{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+    main .our_statistics .container .our .text{
+        width: 100%;
+        padding: 0;
+        height: auto;
+    }
+    main .our_statistics .container .our .content{
+        flex-direction: column;
+        height: auto;
+    }
+    main .our_statistics .container .our .content .content1{
+        height: auto;
+        width: 100%;
+        margin: 10px 0px;
+    }
+
+
+    main .herbert_simon{
+        height: auto;
+    }
+    main .herbert_simon .container .text{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 20px 0px;
+        padding: 0;
+        font-size: auto;
+    }
+
+
+    footer .subscribe{
+        height: auto;
+        width: 100%;
+    }
+    footer .subscribe .container .text{
+        padding: 0;
+        height: auto;
+    }
+    footer .subscribe .container .text .btn{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    footer .subscribe .container .text input{
+        width: 100%;
+        text-align: center;
+    }
+    footer .subscribe .container .text button{
+        width: 100%;
+        text-align: center;
+        margin: 20px 0px;
+    }
+
+
+    footer .about{
+        width: 100%;
+        height: auto;
+    }
+    footer .about .container .content{
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        width: 100%;
+    }
+    footer .about .container .content .left{
+        padding: 0;
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    footer .about .container .content .left .icon{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+    footer .about .container .content .right{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        height: auto;
+    }
+    footer .about .container .content .right .content2{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
